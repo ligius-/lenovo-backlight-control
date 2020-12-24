@@ -54,7 +54,7 @@ namespace ConsoleApp1
                 MethodInfo getKeyboardBackLightLevelInfo = GetRuntimeMethodsExt(myType, "GetKeyboardBackLightLevel", new Type[] { });
                 MethodInfo setKeyboardBackLightStatusInfo = GetRuntimeMethodsExt(myType, "SetKeyboardBackLightStatus", new Type[] { });
 
-                object[] arguments = new object[] { Int32.Parse(args[1]) };
+                object[] arguments = new object[] { Int32.Parse(args[1]), null };
                 UInt32 output = (UInt32)setKeyboardBackLightStatusInfo.Invoke(obj, arguments);
 
                 //UInt32 output = (UInt32)getKeyboardBackLightLevelInfo.Invoke(obj, arguments);
