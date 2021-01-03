@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "lenovo-backlight-control": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\All Users\\Lenovo\\ImController\\Plugins\\ThinkKeyboardPlugin\\x86\\Keyboard_Core.dll\" 1"
+    }
+  }
+}
